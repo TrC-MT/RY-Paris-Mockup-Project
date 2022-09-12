@@ -1,0 +1,233 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #f1a536;
+    margin-bottom: 5px;
+}
+.logobox{ /* There would be a , copyrightbox*/
+    flex-grow: 1;
+    width: 60%;
+}
+nav{
+    display: flex;
+    width: 40%;
+}
+.navLink{
+    text-decoration: none;
+    color: #060606;
+    font-size: 20px;
+    margin-right: 2%;
+    width: 25%;
+}
+
+.hero{
+    width: 100%;
+    height: 450px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#hero1{
+    background-image: url(../images/hero-image.jpg);
+}
+.heroText{
+    background-color: antiquewhite;
+    color: #060606;
+    font-size: 2.5em;
+    width: 30%;
+    position: relative;
+    top: 80%;
+    left: 35%;
+    text-align: center;
+}
+
+.mainSection{
+    width: 85%;
+    margin-left: 8.5%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+h2, .LargeTextParagraph{
+    font-size: 2em;
+}
+.imagesBox{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 40%;
+}
+.sectionImages{
+    width: 30%;
+    height: 300px;
+}
+.imagesLables{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.h3box{
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+h3{
+    text-align: center;
+}
+
+.oddSection{
+    width: 100%;
+    background-color: #dadfea;
+    padding-bottom: 30px;
+}
+.oddSection .sectionImages{
+    width: 22%;
+    height: 225px;
+}
+.oddSection .h3box{
+    width: 22%;
+}
+
+.imageborder{
+    border: 10px solid #dadfea;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #f1a536;
+}
+.footerNav{
+    display: flex;
+    width: 40%;
+}
+.footerLink{
+    text-decoration: none;
+    color: #060606;
+    margin-right: 1%;
+    width: 15%;
+}
+#PrivacyPolicy{
+    width: 16%;
+    margin-right: 6%;
+}
+
+
+/* recipe page styles */
+.recipeHeader{
+    margin: 0px;
+}
+#hero2{
+    background-image: url(../images/burger.jpg);
+}
+
+.RecipeTopContainer{
+    background-color: #dadfea;
+    margin-top: -26px;
+}
+#Time{
+    margin-left: 8.5%;
+}
+.timingSection{
+    display: flex;
+    width: 60%;
+    margin-right: 32.5%;
+    margin-left: 8.5%;
+    align-items: center;
+}
+.timingSectionColumn{
+    width: 30%;
+}
+#timingSectionColumn3{
+    align-self: flex-start;
+}
+
+.BurgerRatingContainer{
+    width: 20%;
+    margin-left: 40%;
+}
+.rating{
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+.star{
+    width: 20px;
+    /* background-color: crimson; */
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+}
+.save{
+    background-color: crimson;
+    border-radius: 15px;
+    color: white;
+    border-color: crimson;
+    width: 60%;
+    height: 40px;
+    margin-right: 2%;
+}
+.printbutton{
+    width: 20%;
+    height: 40px;
+    border-radius: 55%;
+    background-color: whitesmoke;
+}
+.printimage{
+    width: 100%;
+    height: 38px;
+}
+
+.descriptionbox{
+    background-color: #dadfea;
+    width: 80%;
+    margin-left: 8.5%;
+}
+.description{
+    width: 90%;
+    height: 95%;
+    margin: 2.5% 5% 2.5% 5%;
+    font-size: 2em;
+    color:darkslategrey;
+}
+
+.listsContainer{
+    width: 80%;
+    display: flex;
+    margin-left: 8.5%;
+}
+.listtitle{
+    text-align: left;
+}
+.ingredientsbox{
+    width: 45%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+}
+li{
+    margin-left: -4%;
+}
+.smallULtitle{
+    margin: -2px 0px -10px 4%;
+}
+.smallOLtitle{
+    margin: 15px 0px 0px -4%;
+}
+.directionsbox{
+    width: 45%;
+}
+.olLi{
+    margin-bottom: 10px;
+}
